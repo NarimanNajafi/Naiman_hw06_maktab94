@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student Registaration Form</title>
+</head>
+
+<body>
+    <div class="cotainer">
+
+        <form>
+            <div class="header">
+                <h2 class="txt">Student Registaration Form</h2>
+            </div>
+
+            <div class="firstname">
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="fname" placeholder="Firstname" required>
+            </div>
+
+            <div class="middlename">
+                <label for="middlename">Middlename:</label>
+                <input type="text" placeholder="Middlename" required>
+            </div>
+
+            <div class="lasname">
+                <label for="Lastname">Lastname:</label>
+                <input type="text" placeholder="Lastname" required>
+            </div>
+
+            <div class="data-list">
+                <label for="course">Course:</label>
+                <select name="Course" id="course">
+                    <option value="course">Course</option>
+                    <option value="html">Html</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                </select>
+            </div>
+
+            <div class="checklist">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="radio" required>
+                <label for="male">Male</label>
+                <input type="radio" id="radio" required>
+                <label for="female">Female</label>
+                <input type="radio" id="radio" required>
+                <label for="other">other</label>
+            </div>
+
+            <div class="phone-num">
+                <label for="phone">Phone:</label>
+                <input type="text" readonly value="+98">
+            </div>
+            <div class="phone-no">
+                <input type="text" pattern="(\+98|0)?9\d{9}$" placeholder="phone no." required>
+            </div>
+
+            <div class="address">
+                <label for="address">Current Address:</label>
+                <textarea name="address" id="address" cols="63" rows="6" placeholder="Current Address"
+                    required></textarea>
+            </div>
+
+            <div class="mail">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Email" required>
+            </div>
+
+            <div class="pass">
+                <label for="password">Password:</label>
+                <input type="Password" placeholder="Password" required>
+            </div>
+
+            <div class="re-pass">
+                <label for="re-type Password">Re-type Password:</label>
+                <input type="password" placeholder="Re-type Password" required>
+            </div>
+
+            <div class="reg">
+                <input type="submit" value="Register" class="submit">
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

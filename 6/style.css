@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+    
+}
+
+form {
+    background-color: rgb(173, 216, 230);
+    width: 35rem;
+    padding: 2rem;
+    margin: auto;
+
+}
+
+
+label {
+    font-size: 0.9rem;
+}
+div {
+    padding: 0.5rem;
+}
+
+input {
+    outline: none;
+    border: none;
+    display: block;
+    padding: 0.7rem;
+    width: 100%;
+}
+
+#radio {
+    width: 5%;
+    margin: 0.2rem;
+    display: inline;
+}
+
+.submit {
+    background-color:rgb(86, 179, 95) ;
+    color: white;
+}
+
+#address {
+    display: block;
+}
